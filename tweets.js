@@ -1,7 +1,19 @@
 const tweets = [
     {
+        username: "htkksh",
+        tweet: "Bora de mais um duelo com o Guy, já até perdi as contas..."
+    },
+    {
+        username: "sensei_guy",
+        tweet: "hora do duelo, kakashi, ihaaaaaa!!!"
+    },
+    {
+        username: "ero_sennin",
+        tweet: "Partiu missão de infiltração na aldeia da chuva, bora ganhar a aposta da Tsuna"
+    },
+    {
         username: "narutinho",
-        tweet: "cansei já de ir atrá do sasuke, boy tóxico!"
+        tweet: "cansei já de ir atrá do sasuke, desito"
     },
     {
         username: "ssk_uchiha",

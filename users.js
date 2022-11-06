@@ -22,6 +22,18 @@ const users = [
     {
         username: 'tobirama_senju', 
         avatar: "https://i.pinimg.com/originals/62/70/03/627003d2ec8fc1b4d9bb6ce957746db7.jpg"
+    },
+    {
+        username: 'ero_sennin', 
+        avatar: "https://i.pinimg.com/originals/a6/7f/d9/a67fd9301ef563689da61150e9577fa1.jpg"
+    },
+    {
+        username: 'htkksh', 
+        avatar: "https://i.pinimg.com/236x/00/fb/a7/00fba7896fb88ba765810492d0e23814.jpg"
+    },
+    {
+        username: 'sensei_guy', 
+        avatar: "https://i.pinimg.com/736x/ce/e5/ff/cee5ffe8c86955d36f6ddea3a456a030.jpg"
     }
 ]
 
