@@ -53,6 +53,9 @@ app.get("/tweets", (req, res) => {
         t.avatar = avatar.avatar;
         return t;
     })
+    if(newTweets.length > limit){
+        newTweets.length = limit;
+    }
     res.send(newTweets)
 })
 
