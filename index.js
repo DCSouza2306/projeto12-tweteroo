@@ -11,16 +11,6 @@ app.use(cors());
 app.post("/sign-up", (req, res) => {
     const {username, avatar} = req.body
 
-    if(username === "" || avatar === ""){
-        res.status(400).send("Preencha todos os campos");
-        return;
-    }
-
-    const userConference = users.find(u => u.username === username);
-    if(userConference){
-        res.status(409).send("Usuario já cadastrado, insira outro nome");
-        return;
-    }
     const newUser = {
         username,
         avatar
@@ -32,11 +22,6 @@ app.post("/sign-up", (req, res) => {
 
 app.post("/tweets", (req, res) => {
     const {username, tweet} = req.body;
-
-    if(tweet === ""){
-        res.status(400).send("Campo de tweet não pode estar vazio");
-        return;
-    }
 
     tweets.unshift({
         username,
